@@ -1,25 +1,27 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Subtracting Two Complex Numbers
+# Experiment No: 1c-Varibles and Expressions, Operators - Comparing Ages of Two Persons
 
 ## AIM
-To write a Python program for subtract two complex numbers, and get the user input.
+To Write a python program to read the age of two persons and find who is elder and younger
 
 ## ALGORITHM
-1. Initialize c1 as a complex number 8 + 4j.
-2. Initialize c2 as a complex number 5 + 2j.
-3. Add c1 and c2 to get c3.
-4. Print the value of c3.
-
+1. Read age1 and age2 as integers from the user.
+2. Compare age1 and age2.
+3. If age1 is greater, print that person 1 is elder and person 2 is younger.
+4. Otherwise, print that person 2 is elder and person 1 is younger.
 ## PROGRAM
 ```python
-c1=8+4j
-
-c2=5+2j
-c3=c1-c2
-print(c3)
+age1=int(input())
+age2=int(input())
+if age1>age2:
+    print("person 1 elder ")
+    print("person 2 is younger")
+else:
+    print("person 2 elder")
+    print("person 1 younger")
 ```
 
 ## OUTPUT
-![Screenshot 2025-04-26 140331](https://github.com/user-attachments/assets/8eec43d6-1786-40df-9d80-74bcfb10b2e1)
+![Screenshot 2025-04-26 143657](https://github.com/user-attachments/assets/1f78f3f2-26e8-47cb-b817-b2062f78796b)
 
 ## RESULT
-Thus the python program for subtracting two complex numbers has been implemented and executed successfully.
+Thus a python program to read the age of two persons and find who is elder and younger has been implemented and executed successfully.
