@@ -3,6 +3,7 @@
 ## AIM  
 To Write a Python program to check whether the given character is a vowel or not using if..else statement
 ## ALGORITHM  
+
 1. Begin the program.  
 2. Take a character input from the user
 3. Convert the character to lowercase
@@ -13,10 +14,6 @@ To Write a Python program to check whether the given character is a vowel or not
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
-
 char = input("Enter a character: ")
 char_lower = char.lower()
 
@@ -27,5 +24,7 @@ else:
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-26 141835](https://github.com/user-attachments/assets/16c4595d-a43f-4c94-9bb8-4d9637179f74)
 
 ## RESULT
+Thus To Write a Python program to check whether the given character is a vowel or not using if..else statement has been successfully implemented.
